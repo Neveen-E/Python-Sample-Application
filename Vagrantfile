@@ -7,15 +7,18 @@ end
 
 Vagrant.configure("2") do |config|
 
-  config.vm.define "pythonapp" do |pythonapp|
-    pythonapp.vm.box = "ubuntu/xenial64"
-    pythonapp.vm.network "private_network", ip: "192.168.10.170"
-    pythonapp.hostsupdater.aliases = ["development.project"]
+  config.vm.define "app" do |app|
+    app.vm.box = "ubuntu/xenial64"
+    app.vm.network "private_network", ip: "192.168.10.170"
+    app.hostsupdater.aliases = ["development.project"]
 
     #sync app folder
-    pythonapp.vm.synced_folder "app", "/app"
+    app.vm.synced_folder "app", "/app"
 
     #provision with chef
+    app.vm.provision "chef_solo" do |chef|
+      chef.add_recipe "pythonapp::pythonapp"
+    end
 
   end
 
