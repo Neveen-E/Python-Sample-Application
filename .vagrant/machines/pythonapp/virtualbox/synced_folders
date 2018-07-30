@@ -1,0 +1,1 @@
+{"virtualbox":{"/app":{"guestpath":"/app","hostpath":"/Users/tech-a11/Engineering12/Week10/project/Python-Sample-Application/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tech-a11/Engineering12/Week10/project/Python-Sample-Application","disabled":false,"__vagrantfile":true}}}
