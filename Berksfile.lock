@@ -1,0 +1,7 @@
+DEPENDENCIES
+  pythonapp
+    git: git@github.com:Neveen-E/python.git
+    revision: 9b15a8cd0a0a74e00902728460f98e2f6f256511
+
+GRAPH
+  pythonapp (0.1.0)
