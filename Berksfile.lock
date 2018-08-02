@@ -1,7 +1,11 @@
 DEPENDENCIES
+  nginx
+    git: git@github.com:Neveen-E/nginx-cookbook.git
+    revision: 37feaacd9a56806f68d8f9c63bf0e4f886df4e83
   pythonapp
     git: git@github.com:Neveen-E/python.git
-    revision: 9b15a8cd0a0a74e00902728460f98e2f6f256511
+    revision: 05207014e6d6bab6806d6044fc571067840c5216
 
 GRAPH
+  nginx (0.1.0)
   pythonapp (0.1.0)

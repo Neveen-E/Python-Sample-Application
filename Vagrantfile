@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
     #provision with chef
     app.vm.provision "chef_solo" do |chef|
       chef.add_recipe "pythonapp::pythonapp"
+      chef.add_recipe "nginx::nginx"
     end
 
   end
