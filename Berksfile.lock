@@ -4,7 +4,7 @@ DEPENDENCIES
     revision: 37feaacd9a56806f68d8f9c63bf0e4f886df4e83
   pythonapp
     git: git@github.com:Neveen-E/python.git
-    revision: 05207014e6d6bab6806d6044fc571067840c5216
+    revision: b75f06f1e69c521c003dfb8c950e2041f730639b
 
 GRAPH
   nginx (0.1.0)
