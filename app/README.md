@@ -49,7 +49,7 @@ Click the button below to set up this sample app on Heroku:
 
 After creating your app on Heroku, you have to configure the redirect URL for your Uber OAuth app. Use a `https://`*{your-app-name}*`.herokuapp.com/submit` URL.
 You will also want to configure the heroku environment variable FLASK_DEBUG=False in order to properly serve SSL traffic.
-------test-
+
 Making Requests
 ---------------
 
